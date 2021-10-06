@@ -8,7 +8,7 @@ public class Bound {
         }
         
         try {
-            System.out.println(matriks[2]);
+            System.out.println("nilai matriks"+matriks[2]);
         }catch (ArrayIndexOutOfBoundsException e){
             System.out.println(e);
         }finally {
@@ -16,10 +16,6 @@ public class Bound {
         }
     }
 
-        try{
-        System.out.printf("matrik[1]");
-    }catch(ArrayIndexOutBoundsExcepytion e){
-        System.out.println(e);
-    }
+        
 
 }
