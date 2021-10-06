@@ -11,7 +11,15 @@ public class Bound {
             System.out.println(matriks[2]);
         }catch (ArrayIndexOutOfBoundsException e){
             System.out.println(e);
+        }finally {
+            System.out.println(0);
         }
+    }
+
+        try{
+        System.out.printf("matrik[1]");
+    }catch(ArrayIndexOutBoundsExcepytion e){
+        System.out.println(e);
     }
 
 }
