@@ -10,5 +10,14 @@ package com.mycompany.pbomultiusergithub;
  * @author d
  */
 public class Trycatch {
-    
+    public static void main(String[] args) {
+        int a=3;
+        int b=0;
+        //int hasil = a/b;
+        try {
+            System.out.println(""+a/b);
+        } catch (Exception e) {
+            System.out.println("Nilai b tidak boleh = 0");
+        }
+    }
 }
