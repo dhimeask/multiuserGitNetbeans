@@ -1,3 +1,5 @@
+package com.mycompany.pbomultiusergithub;
+
 public class Bound {
     public static void main(String[] args) {
         int matriks[] = new int [2];
